@@ -1,0 +1,45 @@
+.plugin-wikipedia .result{
+    margin: 20px auto;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.plugin-wikipedia .result table > p, .plugin-wikipedia .result table > div {
+    display: block;
+}
+
+.plugin-wikipedia .shortResult{
+    margin: 10px 80px;
+    display: inline-block;
+    text-align: left;
+}
+
+.plugin-wikipedia .shortResult::before {
+    content: open-quote;
+}
+.plugin-wikipedia .shortResult::after {
+    content: close-quote;
+}
+
+
+.thumb.tright {
+    float: right;
+    clear: right;
+    width: auto;
+}
+
+.titre{
+    font-size: 32px;
+    text-shadow: 1px 1px #0E2B65;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1347B0;
+    padding: 16px;
+    font-weight: lighter;
+    -moz-box-shadow: 2px 2px 6px #888;
+    -webkit-box-shadow: 2px 2px 6px #888;
+    box-shadow: 2px 2px 6px #888;
+    text-align: center;
+    display: block;
+    margin: 16px;
+}
